@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --color1: #FA8A40;
+    --color2: #2D5034;
+    --colorbtn: #157347;
+    --color4: #F9C334;
+    --color5: #42D395;
+    --bg: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg);
+}
+.navbar {
+    height: 100px; 
+    position: fixed;
+}
+header a {
+    text-decoration: none;
+}
+.cabecalho {
+    background-color: var(--bg);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    margin-left: 80px;
+    font-weight: 700;
+}
+h4 {
+    position: relative;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.link-externo {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+    justify-content: center;
+    border-radius: 8px;
+    background: transparent;
+    color: #000000;
+    position: relative;
+    right: 100px;
+    bottom: 55px;
+    border: 2px solid #c0beb7;
+}
+.link-externo:hover {
+    background: var(--color3);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.6s;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+.nome {
+    position: relative;
+    width: 170px;
+    right: 16px;
+    bottom: 50px;
+}
+hr {
+    width: 100%;
+    border: 1px solid #c0beb7;   
+    position: relative;
+    bottom: 16px; 
+}
+.hr-footer {
+    position: relative;
+    border: 1px solid #c0beb7;
+    width: 100%;
+    top: 18px;
+}
+span {
+    font-weight: 600;
+    color:var(--color1);
+}
+.article1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.3;
+    height: 280px;
+}
+.article1 h1 {
+    font-size: 3rem;
+}
+.article2 {
+    display: flex;
+    justify-content: center;
+}
+.article3 h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.article4 {
+    height: 650px;
+}
+.article4 h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.article5 {
+    height: 400px;
+}
+.article5 h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.article5 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: #ccc;
+}
+.article5 hr {
+    width: 100%;
+    border: 1px solid #c0beb7;
+    position: relative;
+    top: 90px; 
+}
+.article5 .btn {
+    margin-top: 40px;
+}
+.paragrafo-artigo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 16px;
+    color: #aaa;
+    position: relative;
+    bottom: 40px;
+}
+
+.link-externo2 {
+    position: relative;
+    left: 580px;
+    top: 20px;
+}
+
+.link-externo3 {
+    position: relative;
+    left: 640px;
+    top: 20px;
+}
+
+.app {
+    width: 700px;
+    margin-top: 60px;
+}
+.nutricao,
+.treino,
+.meditacao {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.card1,
+.card2,
+.card3 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+}
+.card1 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.card2 {
+    position: relative;
+    bottom: 5px;
+    right: 30px;
+}
+.card3 {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.treino {
+    position: relative;
+    left: -90px;
+}
+#treino-texto {
+    font-size: 17px;
+    position: relative;
+    left: 135px;
+    top: 40px;
+}
+#nutricao-texto{
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    right: 163px;
+}
+#meditacao-texto {
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    right: 130px;
+}
+.paragrafo-planos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    position: relative;
+    top: 30px;
+}
+.planos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 40px;
+    padding-bottom: 20px;
+}
+.mensal,
+.anual {
+    border: 3px solid var(--color1);
+    border-radius: 8px;
+    width: 450px;
+    padding: 2rem;
+}
+.mensal h5,
+.anual h5 {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.mensal h2,
+.anual h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.mes {
+    font-size: 16px;
+    color: #ccc;
+}
+li {
+    font-size: 15px;
+}
+.compra-mensal,
+.compra-anual {
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.logo-footer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 670px;
+    
+}
+.nome-footer {
+    position: relative;
+    width: 170px;
+    left: 535px;
+    
+}
+footer {
+    background-color: #F8F9FA; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #6c757d;
+    width: 100vw;
+}
+/* Responsividade para tablets (largura entre 768px e 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      min-width: 800px;
+      max-width: 1050px;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      margin-top: 40px;
+      left: 10px;
+    }
+    .nome {
+      width: 110px;
+      position: relative;
+      margin-top: 37px;
+      left: -90px;
+    }
+    hr {
+        min-width: 800px;
+        max-width: 1050px;
+    }
+    .link-externo {
+      margin-top: 40px;
+      width: 160px;
+      position: relative;
+      left: 0px;
+    }
+    .paragrafo-artigo {
+        position: relative;
+        bottom: 90px;
+    }
+    .link-externo2 {
+        position: relative;
+        left: 270px;
+        top: -60px;
+    }
+    .article1 h1 {
+      font-size: 2.5rem;
+    }
+    .article2 {
+        display: block;
+        position: static;
+        margin-left: 50px;
+        top: 200px;
+    }
+    .nutricao {
+        position: relative;
+        left: 70px;
+    }
+    .treino {
+        position: relative;
+        left: -340px;
+        top: 10px;
+    }
+    .meditacao {
+        position: relative;
+        left: 70px;
+        top: 10px;
+    }
+    #nutricao-texto {
+        font-size: 12px;
+        margin-left: 260px;
+        position: relative;
+        top: 33px;
+    }
+    #treino-texto {
+        font-size: 10px;
+        margin-left: 320px;
+        position: relative;
+    }
+    #meditacao-texto {
+        font-size: 12px;
+        margin-left: 230px;
+    }
+    .title {
+        font-size: 14px
+    }
+    .nutricao, .treino, .meditacao {
+      width: 300px;
+      height: 150px;
+      margin-left: -50px;
+    }
+    .planos {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .mensal, .anual {
+      width: 90%;
+      padding: 1rem;
+    }
+    .compra-anual,
+    .compra-mensal {
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+    footer {
+        position: relative;
+        top: 230px;
+    }
+  }
+  /* Responsividade para dispositivos móveis (largura até 768px) */
+  @media screen and (max-width: 767px) {
+    .navbar { 
+        min-width: 390px;
+        max-width: 780px;
+        height: 80px;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      position: relative;
+      left: 25px;
+    }
+    .nome {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      margin-top: 30px;
+      right: 55px;
+    }
+    .link-externo {
+      width: 160px;
+      height: 40px;
+      position: relative;
+      margin-top: 40px;
+      left: -20px;
+    }
+    .app {
+        width: 300px;
+        position: relative;
+        left: 90px;
+        bottom: 80px;
+    }
+    .cards {
+        display: none;
+    }
+    .article3 h1 {
+        display: none;
+  
+    }
+    .article1 h1 {
+      font-size: 1.6rem;
+      line-height: 1.4; 
+      position: relative;
+      right: 20px;
+    }
+    .paragrafo-artigo {
+      font-size: 13px;
+      position: relative;
+      bottom: 130px;
+      right: 10px;
+    }
+    .link-externo2 {
+        position: relative;
+        left: 50px;
+        top: -90px;
+    }
+    .article2 {
+        width: 200px;
+    }
+    .article4 {
+        height: 300px;
+        width: 380px;
+    }
+    .planos {
+      flex-direction: column;
+      align-items: center;
+    }
+    .mensal, .anual {
+      width: 95%;
+      padding: 1rem;
+    }
+    .mensal h5, .anual h5 {
+      font-size: 18px;
+    }
+    .mensal h2, .anual h2 {
+      font-size: 24px;
+    }
+    li {
+      font-size: 14px;
+    }
+    footer {
+    position: relative;
+      font-size: 12px;
+      padding: 10px;
+      top: 780px;
+    }
+    hr {
+        display: none;
+    }
+  }
+  
