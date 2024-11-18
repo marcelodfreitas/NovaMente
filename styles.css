@@ -441,6 +441,11 @@ footer {
       margin-top: 40px;
       left: -20px;
     }
+    .link-externo2 {
+        position: relative;
+        left: 60px;
+        top: -90px;
+    }
     .app {
         width: 300px;
         position: relative;
@@ -466,10 +471,8 @@ footer {
       bottom: 130px;
       right: 10px;
     }
-    .link-externo2 {
-        position: relative;
-        left: 50px;
-        top: -90px;
+    .article3 {
+        display: block;
     }
     .article2 {
         width: 200px;
